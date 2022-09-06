@@ -21,7 +21,7 @@ pass_check = {
 if len(password) >=6:
     pass_check["rule 4"] = 1
 
-if len(password <=16):
+if len(password) <= 16:
     pass_check["rule 5"] = 1
 
 for x in password:
