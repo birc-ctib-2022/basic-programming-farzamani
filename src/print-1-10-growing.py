@@ -7,6 +7,7 @@ n = 10
 for i in range(1, n+1):
     for j in range(1, i+1):
         number += '{} '.format(j)
-    number += '\n'
+    if i < 10:
+        number += '\n'
 
-print(number.strip())
+print(number.rstrip())
